@@ -4,6 +4,8 @@ This repository is an implementation of the final project for the [Robotics Soft
 
 It represents a toy implementation of a robot, responsible for performing simultaneous localization and mapping on a custom map, tasked with collecting an object at a specific location and dropping it at another location.  Implementation is done mostly using public ROS packages, and a couple of custom-purpose C++ packages.
 
+![Robot delivering a blue cube](images/demo.gif)
+
 This directory contains:
 - A SDF model for a small apartment, its map, and visualization settings
 - Clones for various ROS packages, responsible for SLAM
